@@ -7,6 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Transparência Cidadã",
   description: "Painel de dados públicos da Câmara dos Deputados.",
+  icons: {
+    icon: "/brasil.png",
+    shortcut: "/brasil.png",
+    apple: "/brasil.png",
+  },
 };
 
 export default function RootLayout({
